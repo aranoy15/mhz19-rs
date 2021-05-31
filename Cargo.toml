@@ -1,0 +1,18 @@
+[package]
+name = "mhz19-rs"
+version = "0.1.0"
+authors = ["afedoseev <afedoseev@AFEDOSEEV>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "0.2"
+nb = "1.0"
+
+[dev-dependencies]
+void = "1.0.2"
+heapless = "0.6.0"
+
+[lib]
+doctest = false
